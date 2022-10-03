@@ -1,0 +1,2125 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/* *********************************************************************************************************************** */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    zoom: 100%;
+}
+
+
+#home-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("computers2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ 
+    overflow: hidden;
+    /* max-width: 100%;
+    height: auto; */
+    background-size: cover;
+    
+
+}
+
+#box1 {
+
+    border: 5px;
+    width: 2500px;
+    height: 110px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading {
+    color: #f3f3f3;
+    position: relative;
+    top: 30px;
+    right: 50px;
+    margin-top: 1em;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+/* html {
+	color: #f3f3f3;
+    margin-top: 50px;
+    margin-left: 600px;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+} */
+
+#box1 {
+    color: #f3f3f3;
+    margin-top: 10px;
+    margin-left: 600px;
+    /* border: 5px solid ;*/
+    /* width: 700px;
+    height: 100px;  */
+    font-size: 30px;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+
+h1 {
+    color: #f3f3f3;
+    margin-top: 70px;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+/* ************* Button ************************************************************************* */
+
+
+
+
+/* CSS */
+.button-21 {
+    z-index: 100;
+    align-items: center;
+    position: relative;
+    left: 1430px;
+    bottom: 250px;
+
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+    outline: none;
+}
+
+.button-21:hover {
+    background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+/* ******************************************EXCLUSIVE FOR CONTACT US ****************************************************** */
+/* 
+#contact-body {
+    background-image: url("contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   background-size: cover;
+    
+    background-size: 100%; 
+
+
+    
+} */
+
+#contact-body {
+
+    background-image: url("black-bag.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* height: 100%;
+    background-size: 100%; */
+}
+
+.contact-para {
+    color: #f3f3f3;
+    position: fixed;
+    left: 700px;
+    top: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 26px;
+
+
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+#heading1 {
+    color: #f3f3f3;
+    margin-top: 5px;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+.fa {
+    padding: 30px;
+    position: relative;
+    top: 260px;
+    left: 600px;
+    font-size: 50px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 80px; */
+    
+    
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github {
+
+    background: #171515;
+    color: white;
+
+  }
+  .fa-linkedin {
+    background: #0A66C2;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: red;
+    color: white;
+  }
+
+.button-22 {
+    z-index: 100;
+    align-items: center;
+    position: relative;
+    left: 775px;
+    bottom: 205px;
+
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-22:active,
+.button-22:focus {
+    outline: none;
+}
+
+.button-22:hover {
+    background-position: -20px -20px;
+}
+
+.button-22:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+/* ******************************************EXCLUSIVE FOR PORTFOLIO ****************************************************** */
+
+#portfolio-body {
+
+    background-image: url("black-bag.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    /* background-size: 100%; */
+}
+
+#portfolio-para {
+    color: #f3f3f3;
+    position: fixed;
+    left: 680px;
+    top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 26px;
+
+
+
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+#heading_por{
+    color: #f3f3f3;
+    margin-top: 5px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.fiverr-logo{
+    position: relative;
+    top: 350px;
+    left: 660px;
+    width: 60px%;
+    height: 60px;
+    
+    object-fit: cover;
+    /* top: 110px;
+    left: 100px;
+    margin-left: 650px; */
+}
+
+
+
+
+
+
+.button-24 {
+  position: relative;
+  left: 915px;
+  top: -35px;
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-24:active,
+.button-24:focus {
+  outline: none;
+}
+
+.button-24:hover {
+  background-position: -20px -20px;
+}
+
+.button-24:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+/* **********************************************  Screen upto 1600px ***************************************************** */
+@media screen and (max-width: 1600px)
+{
+    #box1 {
+
+        border: 5px;
+        width: 2500px;
+        height: 100px;
+        font-size: 21px;
+        position: relative;
+        top: 90px;
+        right: 300px;
+        left: -150px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading {
+        color: #f3f3f3;
+        position: relative;
+       
+        top: 100px;
+        right: 270px;
+        left: -158px;
+        margin-top: 1em;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+        /* CSS */
+    .button-21 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 1100px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+    #heading1 {
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 140px;
+        left: -90px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+    .contact-para {
+        color: #f3f3f3;
+        position: fixed;
+        left: 500px;
+        top: 270px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-size: 26px;
+    
+    
+    
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .fa {
+        padding: 30px;
+        position: relative;
+        top: 260px;
+        left: 450px;
+        font-size: 50px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 80px; */
+        
+        
+        
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-github {
+    
+        background: #171515;
+        color: white;
+    
+      }
+      .fa-linkedin {
+        background: #0A66C2;
+        color: white;
+      }
+    
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+
+      .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 550px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+    #portfolio-para{
+
+    color: #f3f3f3;
+    position: fixed;
+    left: 420px;
+    top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
+    }
+    #heading_por{
+    color: #f3f3f3;
+    margin-top: 5px;
+    position: relative;
+    top: 110px;
+    left: -170px;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    .fiverr-logo{
+        position: relative;
+        top: 350px;
+        left: 390px;
+        width: 60px%;
+        height: 60px;
+        
+        object-fit: cover;
+        /* top: 110px;
+        left: 100px;
+        margin-left: 650px; */
+    }
+
+    .button-24 {
+        position: relative;
+        left: 615px;
+        top: -35px;
+        align-items: center;
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd,sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s,background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+      }
+      
+      .button-24:active,
+      .button-24:focus {
+        outline: none;
+      }
+      
+      .button-24:hover {
+        background-position: -20px -20px;
+      }
+      
+      .button-24:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+      }
+      
+}
+
+@media screen and (max-width: 1300px ) 
+{
+    #box1 {
+
+        border: 5px;
+        width: 2500px;
+        height: 100px;
+        font-size: 18px;
+        position: relative;
+        top: 30px;
+        right: 300px;
+        left: -270px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading {
+        color: #f3f3f3;
+        position: relative;
+        top: 50px;
+        right: 250px;
+        left: -290px;
+        margin-top: 1em;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+        /* CSS */
+    .button-21 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 800px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+    #heading1 {
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 140px;
+        left: -250px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+    .contact-para {
+        color: #f3f3f3;
+        position: fixed;
+        left: 350px;
+        top: 240px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-size: 23px;
+    
+    
+    
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .fa {
+        padding: 30px;
+        position: relative;
+        top: 200px;
+        left: 250px;
+        font-size: 50px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 80px; */
+        
+        
+        
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-github {
+    
+        background: #171515;
+        color: white;
+    
+      }
+      .fa-linkedin {
+        background: #0A66C2;
+        color: white;
+      }
+    
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+
+      .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 70px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+
+
+
+    #portfolio-para{
+
+        color: #f3f3f3;
+        position: fixed;
+        left: 420px;
+        top: 220px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-family: "Times New Roman", Times, serif;
+        }
+        #heading_por{
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 110px;
+        left: -170px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-family: "Times New Roman", Times, serif;
+        }
+    
+        .fiverr-logo{
+            position: relative;
+            top: 350px;
+            left: 390px;
+            width: 60px%;
+            height: 60px;
+            
+            object-fit: cover;
+            /* top: 110px;
+            left: 100px;
+            margin-left: 650px; */
+        }
+    
+        .button-24 {
+            position: relative;
+            left: 380px;
+            top: -35px;
+            align-items: center;
+            appearance: none;
+            background-color: #3EB2FD;
+            background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+            background-size: calc(100% + 20px) calc(100% + 20px);
+            border-radius: 100px;
+            border-width: 0;
+            box-shadow: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: CircularStd,sans-serif;
+            font-size: 1rem;
+            height: auto;
+            justify-content: center;
+            line-height: 1.5;
+            padding: 6px 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color .2s,background-position .2s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: top;
+            white-space: nowrap;
+          }
+          
+          .button-24:active,
+          .button-24:focus {
+            outline: none;
+          }
+          
+          .button-24:hover {
+            background-position: -20px -20px;
+          }
+          
+          .button-24:focus:not(:active) {
+            box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+          }
+          
+
+
+
+}
+
+
+@media screen and (max-width: 1050px ) 
+{
+    #box1 {
+
+        border: 5px;
+        width: 2500px;
+        height: 100px;
+        font-size: 18px;
+        position: relative;
+        top: 30px;
+        right: 300px;
+        left: -270px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading {
+        color: #f3f3f3;
+        position: relative;
+        top: 50px;
+        right: 250px;
+        left: -290px;
+        margin-top: 1em;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+        /* CSS */
+    .button-21 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 600px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+    #heading1 {
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 140px;
+        left: -260px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+    .contact-para {
+        color: #f3f3f3;
+        position: fixed;
+        left: 330px;
+        top: 240px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-size: 23px;
+    
+    
+    
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .fa {
+        padding: 30px;
+        position: relative;
+        top: 200px;
+        left: 250px;
+        font-size: 50px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 80px; */
+        
+        
+        
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-github {
+    
+        background: #171515;
+        color: white;
+    
+      }
+      .fa-linkedin {
+        background: #0A66C2;
+        color: white;
+      }
+    
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+
+      .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: -10px;
+        bottom: 180px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 10px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+    .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 70px;
+        bottom: 210px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+
+
+
+    #portfolio-para{
+
+        color: #f3f3f3;
+        position: fixed;
+        left: 250px;
+        top: 220px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-family: "Times New Roman", Times, serif;
+        }
+        #heading_por{
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 110px;
+        left: -350px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-family: "Times New Roman", Times, serif;
+        }
+    
+        .fiverr-logo{
+            position: relative;
+            top: 350px;
+            left: 210px;
+            width: 60px%;
+            height: 60px;
+            
+            object-fit: cover;
+            /* top: 110px;
+            left: 100px;
+            margin-left: 650px; */
+        }
+    
+        .button-24 {
+            position: relative;
+            left: 150px;
+            top: -35px;
+            align-items: center;
+            appearance: none;
+            background-color: #3EB2FD;
+            background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+            background-size: calc(100% + 20px) calc(100% + 20px);
+            border-radius: 100px;
+            border-width: 0;
+            box-shadow: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: CircularStd,sans-serif;
+            font-size: 1rem;
+            height: auto;
+            justify-content: center;
+            line-height: 1.5;
+            padding: 6px 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color .2s,background-position .2s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: top;
+            white-space: nowrap;
+          }
+          
+          .button-24:active,
+          .button-24:focus {
+            outline: none;
+          }
+          
+          .button-24:hover {
+            background-position: -20px -20px;
+          }
+          
+          .button-24:focus:not(:active) {
+            box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+          }
+          
+
+
+    
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 800px ) 
+{
+    #box1 {
+
+        border: 5px;
+        width: 2500px;
+        height: 100px;
+        font-size: 16px;
+        position: relative;
+        top: 60px;
+        right: 300px;
+        left: -450px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading {
+        color: #f3f3f3;
+        position: relative;
+        top: 80px;
+        right: 250px;
+        left: -350px;
+        margin-top: 1em;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+        /* CSS */
+    .button-21 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 190px;
+        bottom: 200px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+    #heading1 {
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 170px;
+        left: -350px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+    .contact-para {
+        color: #f3f3f3;
+        position: fixed;
+        left: 250px;
+        top: 240px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-size: 18px;
+    
+    
+    
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .fa {
+        padding: 30px;
+        position: relative;
+        top: 200px;
+        left: 100px;
+        font-size: 50px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 80px; */
+        
+        
+        
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-github {
+    
+        background: #171515;
+        color: white;
+    
+      }
+      .fa-linkedin {
+        background: #0A66C2;
+        color: white;
+      }
+    
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+
+      .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: -360px;
+        bottom: 150px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 150px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 10px;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 15px 6px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+
+
+
+
+
+    #portfolio-para{
+
+        color: #f3f3f3;
+        position: fixed;
+        left: 240px;
+        top: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+        }
+        #heading_por{
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 150px;
+        left: -350px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+        }
+    
+        .fiverr-logo{
+            position: relative;
+            top: 300px;
+            left: 210px;
+            width: 50px%;
+            height: 40px;
+            
+            object-fit: cover;
+            /* top: 110px;
+            left: 100px;
+            margin-left: 650px; */
+        }
+    
+        .button-24 {
+            position: relative;
+            left: -130px;
+            top: 20px;
+            align-items: center;
+            appearance: none;
+            background-color: #3EB2FD;
+            background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+            background-size: calc(100% + 20px) calc(100% + 20px);
+            border-radius: 100px;
+            border-width: 0;
+            box-shadow: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: CircularStd,sans-serif;
+            font-size: 1rem;
+            height: auto;
+            justify-content: center;
+            line-height: 1.5;
+            padding: 6px 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color .2s,background-position .2s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: top;
+            white-space: nowrap;
+          }
+          
+          .button-24:active,
+          .button-24:focus {
+            outline: none;
+          }
+          
+          .button-24:hover {
+            background-position: -20px -20px;
+          }
+          
+          .button-24:focus:not(:active) {
+            box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+          }
+          
+
+
+    
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px ) 
+{
+    #box1 {
+
+        border: 5px;
+        width: 2500px;
+        height: 100px;
+        font-size: 16px;
+        position: relative;
+        top: 60px;
+        right: 300px;
+        left: -565px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading {
+        color: #f3f3f3;
+        position: relative;
+        top: 80px;
+        right: 250px;
+        left: -440px;
+        margin-top: 1em;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+        /* CSS */
+    .button-21 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: 90px;
+        bottom: 200px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+
+
+
+    #heading1 {
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 120px;
+        left: -450px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+
+    .contact-para {
+        color: #f3f3f3;
+        position: fixed;
+        left: 150px;
+        top: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-size: 14px;
+    
+    
+    
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .fa {
+        padding: 30px;
+        position: relative;
+        top: 150px;
+        left: 10px;
+        font-size: 50px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 80px; */
+        
+        
+        
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-github {
+    
+        background: #171515;
+        color: white;
+    
+      }
+      .fa-linkedin {
+        background: #0A66C2;
+        color: white;
+      }
+    
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+
+      .button-22 {
+        z-index: 100;
+        align-items: center;
+        position: relative;
+        left: -10px;
+        right: 230px;
+        bottom: 250px;
+
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 150px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 10px;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 15px 6px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-22:active,
+    .button-22:focus {
+        outline: none;
+    }
+
+    .button-22:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-22:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+
+
+
+
+
+
+
+    #portfolio-para{
+
+        color: #f3f3f3;
+        position: fixed;
+        left: 100px;
+        top: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-family: "Times New Roman", Times, serif;
+        }
+        #heading_por{
+        color: #f3f3f3;
+        margin-top: 5px;
+        position: relative;
+        top: 150px;
+        left: -500px;
+        margin-left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        }
+    
+        .fiverr-logo{
+            position: relative;
+            top: 300px;
+            left: 100px;
+            width: 40px%;
+            height: 30px;
+            
+            object-fit: cover;
+            /* top: 110px;
+            left: 100px;
+            margin-left: 650px; */
+        }
+    
+        .button-24 {
+            position: relative;
+            left: -230px;
+            top: 20px;
+            align-items: center;
+            appearance: none;
+            background-color: #3EB2FD;
+            background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+            background-size: calc(100% + 20px) calc(100% + 20px);
+            border-radius: 100px;
+            border-width: 0;
+            box-shadow: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: CircularStd,sans-serif;
+            font-size: 1rem;
+            height: auto;
+            justify-content: center;
+            line-height: 1.5;
+            padding: 4px 5px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color .2s,background-position .2s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: top;
+            white-space: nowrap;
+          }
+          
+          .button-24:active,
+          .button-24:focus {
+            outline: none;
+          }
+          
+          .button-24:hover {
+            background-position: -20px -20px;
+          }
+          
+          .button-24:focus:not(:active) {
+            box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+          }
+          
+
+
+    
+
+
+
+
+
+
+}
+
+

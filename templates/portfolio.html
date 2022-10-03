@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='mainpage.css')}}">
+</head >
+<body id="portfolio-body">
+
+    <h1 id="heading_por" >My Portfolio</h1>
+
+    <p id="portfolio-para"> All my projects are available on my Github <br> I am also a 5 ⭐ rated seller on the freelancing <br>
+        platform Fiverr
+      </p>
+
+    <a href="https://www.fiverr.com/pranavtechy">
+
+        <img class = "fiverr-logo" src="https://www.kindpng.com/picc/m/184-1840350_fiverr-logo-white-png-transparent-png.png" alt="Fiverr Profile of">
+    </a>
+     
+    <a href="https://github.com/pranavmr009">
+    <img class = "fiverr-logo" src="https://www.kindpng.com/picc/m/141-1419051_github-icon-png-transparent-png.png" alt="Pranav's Github">
+    </a>
+
+    <a href="mailto:raveendranmg6@gmail.com">
+        <img class = "fiverr-logo" src="../static/email.png" alt="Pranav's Email">
+
+    </a>
+
+    <button onclick="window.location.href='about'" class="button-24" role="button">About</button>
+    <button onclick="window.location.href='contact'" class="button-24" role="button">Contact</button>
+     <button onclick="window.location.href='portfolio'" class="button-24" role="button">Portfolio</button>
+
+</body>
+</html>
